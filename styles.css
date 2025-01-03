@@ -64,7 +64,7 @@ body {
     display: inline-block;
     width: 20px;
     height: 24px;
-    background-image: url('unchecked.svg');
+    background-image: url('assets/unchecked.svg');
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer;
@@ -72,10 +72,10 @@ body {
     margin-right: 10px;
 }
 .list li.checked::before{
-    background-image: url('checked.svg');
+    background-image: url('assets/checked.svg');
 }
 .delete{
-    background-image: url('delete.svg');
+    background-image: url('assets/delete.svg');
     border-radius: 5px;
     padding: 5px;
     background-position: center;
