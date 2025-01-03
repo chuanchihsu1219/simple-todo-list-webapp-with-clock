@@ -1,5 +1,7 @@
 # To-Do List Web App with Clock
 
+https://chuanchihsu1219.github.io/simple-todo-list-webapp-with-clock/
+
 This is a simple **To-Do List Web App** built using **HTML**, **CSS**, and **JavaScript**. The app allows users to add, mark as completed, and delete tasks, with data persistence using the browser's localStorage. Additionally, the application includes a **real-time clock** displayed at the top of the interface, enhancing usability and aesthetic appeal. The UI design is sleek and visually engaging, featuring a gradient background that makes it an **excellent choice as a browser homepage**, combining both functionality and aesthetics.
 
 ## Features
@@ -22,6 +24,8 @@ This is a simple **To-Do List Web App** built using **HTML**, **CSS**, and **Jav
    git clone https://github.com/yourusername/todo-app.git
    ```
 2. Open `index.html` in your browser.
+
+Or simply navigate to https://chuanchihsu1219.github.io/simple-todo-list-webapp-with-clock/
 
 ## Usage
 
