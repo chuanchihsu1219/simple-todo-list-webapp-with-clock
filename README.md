@@ -9,7 +9,7 @@ This is a simple To-Do List application built using **HTML**, **CSS**, and **Jav
 - **Data Persistence:** Tasks are saved to `localStorage` and reloaded upon revisiting the page.
 
 ## Demo
-![To-Do App Screenshot](assets/screenshot.png)
+![To-Do App Screenshot](assets/demo.png)
 
 ## Installation
 1. Clone this repository:  
