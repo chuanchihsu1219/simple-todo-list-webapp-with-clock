@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(180deg, #f1e1ff, #20ac6a);
+    min-height: 100vh;
+    font-family: "Noto Sans TC", sans-serif;
+}
+.container {
+    background-color: white;
+    width: 400px;
+    margin: 100px auto;
+    padding: 10px 100px;
+    border-radius: 30px;
+}
+.title {
+    position: relative;
+    left: -20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.inner-wrapper {
+    margin: 0 auto;
+    max-width: 450px;
+    width: 300px;
+}
+.input-wrapper {
+    border-radius: 20px;
+    background: #eeeff0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 424px;
+}
+.input-wrapper input {
+    background-color: transparent;
+    border: 0;
+    flex: 1;
+    outline: none;
+    padding: 10px 20px;
+}
+.input-wrapper button {
+    background-color: #0a9758;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px 13px;
+}
+.list{
+    list-style: none;
+    padding: 0px;
+}
+.list li{
+    vertical-align: middle;
+    font-weight: 400;
+    padding: 5px;
+    position: relative;
+}
+.list li.checked{
+    text-decoration: line-through;
+}
+.list li::before{
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 24px;
+    background-image: url('unchecked.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.list li.checked::before{
+    background-image: url('checked.svg');
+}
+.delete{
+    background-image: url('delete.svg');
+    border-radius: 5px;
+    padding: 5px;
+    background-position: center;
+    background-size: contain;
+    object-fit: cover;
+    cursor: pointer;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 0;
+    width: 10px;
+    height: 24px;
+}
+.delete:hover{
+    background-color: #f1e1ff;
+    cursor: pointer;
+}
