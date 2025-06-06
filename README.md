@@ -21,7 +21,7 @@ This is a simple **To-Do List Web App** built using **HTML**, **CSS**, and **Jav
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/yourusername/todo-app.git
+   git clone https://github.com/chuanchihsu1219/simple-todo-list-webapp-with-clock.git
    ```
 2. Open `index.html` in your browser.
 
